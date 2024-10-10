@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    font-size: 44px;
+    gap: 40px;
+    position: relative;
+    scale: 0.8;
+}
+h1 {
+    color: rgb(232, 255, 24);
+}
+p {
+    color: white;
+}
+button {
+    padding: 20px 40px;
+    font-size: 40px;
+    background: rgb(232, 255, 24);
+    color:green ;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.result {
+    /* position: absolute; */
+    background-color: hsla(120, 1%, 20%, 0.8);
+    color: black;
+    border-radius:50px;
+    padding: 10px 180px;
+    transition: .5s;
+    scale: 0;
+}
